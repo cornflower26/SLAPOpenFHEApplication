@@ -5,6 +5,16 @@
 #ifndef OPENFHE_SLAPRNS_H
 #define OPENFHE_SLAPRNS_H
 
-class slaprns {};
+#include "PSA-base-scheme.h"
+
+namespace lbcrypto {
+
+class SLAPScheme : public PSAScheme {
+
+
+
+};
+
+}
 
 #endif  //OPENFHE_SLAPRNS_H
