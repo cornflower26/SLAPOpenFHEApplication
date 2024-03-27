@@ -1,0 +1,1156 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      The system is: Darwin - 23.2.0 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'System' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      1
+      ld: library 'c++' not found
+      clang: error: linker command failed with exit code 1 (use -v to see invocation)
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+      Build flags: 
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea33f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea33f.dir/build.make CMakeFiles/cmTC_ea33f.dir/build
+        Building C object CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_ea33f
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea33f.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -o cmTC_ea33f 
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_ea33f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:20:30 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=loading
+        found start of include info
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ea33f/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ea33f.dir/build.make CMakeFiles/cmTC_ea33f.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m; "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdebug-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8c3DY -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -x c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCCompilerABI.c;clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0;ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include";ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks";#include "..." search starts here:;#include <...> search starts here:; /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include; /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include; /Library/Developer/CommandLineTools/usr/include; /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory);End of search list.;Linking C executable cmTC_ea33f;/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea33f.dir/link.txt --verbose=1;/Library/Developer/CommandLineTools/usr/bin/cc  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -o cmTC_ea33f ;Apple clang version 15.0.0 (clang-1500.1.0.2.5);Target: x86_64-apple-darwin23.2.0;Thread model: posix;InstalledDir: /Library/Developer/CommandLineTools/usr/bin; "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_ea33f -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_ea33f.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a;@(#)PROGRAM:ld  PROJECT:dyld-1022.1;BUILD 13:20:30 Nov 10 2023;configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h;will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em;LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29);TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8);Library search paths:;Framework search paths:;;]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2716/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2716.dir/build.make CMakeFiles/cmTC_a2716.dir/build
+        Building CXX object CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -v -Wl,-v -MD -MT CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+        clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m
+         "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1
+         /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include
+         /Library/Developer/CommandLineTools/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_a2716
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2716.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2716 
+        Apple clang version 15.0.0 (clang-1500.1.0.2.5)
+        Target: x86_64-apple-darwin23.2.0
+        Thread model: posix
+        InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+         "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_a2716 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld  PROJECT:dyld-1022.1
+        BUILD 13:20:30 Nov 10 2023
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h
+        will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8)
+        Library search paths:
+        Framework search paths:
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=loading
+        found start of include info
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:26 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb]
+        ignore line: []
+        ignore line: [Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a2716/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a2716.dir/build.make CMakeFiles/cmTC_a2716.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++   -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -v -Wl -v -MD -MT CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 15.0.0 (clang-1500.1.0.2.5)]
+        ignore line: [Target: x86_64-apple-darwin23.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
+        ignore line: [clang: \x1b[0;1;35mwarning: \x1b[0m\x1b[1m-Wl,-v: 'linker' input unused [-Wunused-command-line-argument]\x1b[0m; "/Library/Developer/CommandLineTools/usr/bin/clang" -cc1 -triple x86_64-apple-macosx14.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=all -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=2 -target-sdk-version=14.2 -fvisibility-inlines-hidden-static-local-var -target-cpu penryn -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=lldb -target-linker-version 1022.1 -v -fcoverage-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb -resource-dir /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0 -dependency-file CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include -internal-externc-isystem /Library/Developer/CommandLineTools/usr/include -Wno-reorder-init-list -Wno-implicit-int-float-conversion -Wno-c99-designator -Wno-final-dtor-non-final-class -Wno-extra-semi-stmt -Wno-misleading-indentation -Wno-quoted-include-in-framework-header -Wno-implicit-fallthrough -Wno-enum-enum-conversion -Wno-enum-float-conversion -Wno-elaborated-enum-base -Wno-reserved-identifier -Wno-gnu-folding-constant -fdeprecated-macro -fdebug-compilation-dir=/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-I8sNXb -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fno-cxx-modules -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -fcolor-diagnostics -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -mllvm -disable-aligned-alloc-awareness=1 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -x c++ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp;clang -cc1 version 15.0.0 (clang-1500.1.0.2.5) default target x86_64-apple-darwin23.2.0;ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/local/include";ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/Library/Frameworks";#include "..." search starts here:;#include <...> search starts here:; /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1; /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include; /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include; /Library/Developer/CommandLineTools/usr/include; /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/System/Library/Frameworks (framework directory);End of search list.;Linking CXX executable cmTC_a2716;/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2716.dir/link.txt --verbose=1;/Library/Developer/CommandLineTools/usr/bin/c++  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a2716 ;Apple clang version 15.0.0 (clang-1500.1.0.2.5);Target: x86_64-apple-darwin23.2.0;Thread model: posix;InstalledDir: /Library/Developer/CommandLineTools/usr/bin; "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -platform_version macos 14.0.0 14.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -o cmTC_a2716 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_a2716.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/lib/darwin/libclang_rt.osx.a;@(#)PROGRAM:ld  PROJECT:dyld-1022.1;BUILD 13:20:30 Nov 10 2023;configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h;will use ld-classic for: armv6 armv7 armv7s arm64_32 i386 armv6m armv7k armv7m armv7em;LTO support using: LLVM version 15.0.0 (static support for 29, runtime is 29);TAPI support using: Apple TAPI version 15.0.0 (tapi-1500.0.12.8);Library search paths:;Framework search paths:;;]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:252 (check_include_file)"
+      - "CMakeLists.txt:269 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-A0DpqZ"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-A0DpqZ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-A0DpqZ
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_63d53/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_63d53.dir/build.make CMakeFiles/cmTC_63d53.dir/build
+        Building C object CMakeFiles/cmTC_63d53.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_63d53.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_63d53.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_63d53.dir/CheckIncludeFile.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-A0DpqZ/CheckIncludeFile.c
+        Linking C executable cmTC_63d53
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63d53.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_63d53.dir/CheckIncludeFile.c.o -o cmTC_63d53 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:253 (check_include_file)"
+      - "CMakeLists.txt:269 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-mHfmLk"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-mHfmLk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-mHfmLk
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a104e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a104e.dir/build.make CMakeFiles/cmTC_a104e.dir/build
+        Building C object CMakeFiles/cmTC_a104e.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_a104e.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_a104e.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_a104e.dir/CheckIncludeFile.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-mHfmLk/CheckIncludeFile.c
+        Linking C executable cmTC_a104e
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a104e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a104e.dir/CheckIncludeFile.c.o -o cmTC_a104e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:254 (check_include_file)"
+      - "CMakeLists.txt:269 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-dclN5R"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-dclN5R"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-dclN5R
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0b270/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0b270.dir/build.make CMakeFiles/cmTC_0b270.dir/build
+        Building C object CMakeFiles/cmTC_0b270.dir/CheckIncludeFile.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_0b270.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_0b270.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_0b270.dir/CheckIncludeFile.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-dclN5R/CheckIncludeFile.c
+        Linking C executable cmTC_0b270
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b270.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0b270.dir/CheckIncludeFile.c.o -o cmTC_0b270 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:269 (check_type_size)"
+    checks:
+      - "Check size of __int128"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-DQUuuQ"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-DQUuuQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_INT128"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-DQUuuQ
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2cdba/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2cdba.dir/build.make CMakeFiles/cmTC_2cdba.dir/build
+        Building C object CMakeFiles/cmTC_2cdba.dir/INT128.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_2cdba.dir/INT128.c.o -MF CMakeFiles/cmTC_2cdba.dir/INT128.c.o.d -o CMakeFiles/cmTC_2cdba.dir/INT128.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-DQUuuQ/INT128.c
+        Linking C executable cmTC_2cdba
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cdba.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2cdba.dir/INT128.c.o -o cmTC_2cdba 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:148 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckTypeSize.cmake:273 (__check_type_size_impl)"
+      - "CMakeLists.txt:270 (check_type_size)"
+    checks:
+      - "Check size of uint64_t"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-PDOckd"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-PDOckd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_INT64"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-PDOckd
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f394e/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f394e.dir/build.make CMakeFiles/cmTC_f394e.dir/build
+        Building C object CMakeFiles/cmTC_f394e.dir/INT64.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f394e.dir/INT64.c.o -MF CMakeFiles/cmTC_f394e.dir/INT64.c.o.d -o CMakeFiles/cmTC_f394e.dir/INT64.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-PDOckd/INT64.c
+        Linking C executable cmTC_f394e
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f394e.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f394e.dir/INT64.c.o -o cmTC_f394e 
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:441 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5YMreS"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5YMreS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5YMreS
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3ecc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f3ecc.dir/build.make CMakeFiles/cmTC_f3ecc.dir/build
+        Building C object CMakeFiles/cmTC_f3ecc.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_f3ecc.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_f3ecc.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_f3ecc.dir/OpenMPCheckVersion.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5YMreS/OpenMPCheckVersion.c
+        \x1b[1m/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5YMreS/OpenMPCheckVersion.c:3:10: \x1b[0m\x1b[0;1;31mfatal error: \x1b[0m\x1b[1m'omp.h' file not found\x1b[0m
+        #include <omp.h>
+        \x1b[0;1;32m         ^~~~~~~
+        \x1b[0m1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_f3ecc.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_f3ecc/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:441 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5agcfg"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5agcfg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5agcfg
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25e01/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25e01.dir/build.make CMakeFiles/cmTC_25e01.dir/build
+        Building CXX object CMakeFiles/cmTC_25e01.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_25e01.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_25e01.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_25e01.dir/OpenMPCheckVersion.cpp.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5agcfg/OpenMPCheckVersion.cpp
+        \x1b[1m/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-5agcfg/OpenMPCheckVersion.cpp:3:10: \x1b[0m\x1b[0;1;31mfatal error: \x1b[0m\x1b[1m'omp.h' file not found\x1b[0m
+        #include <omp.h>
+        \x1b[0;1;32m         ^~~~~~~
+        \x1b[0m1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_25e01.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_25e01/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:441 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-bd5391"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-bd5391"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-bd5391
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_4a17c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4a17c.dir/build.make CMakeFiles/cmTC_4a17c.dir/build
+        Building C object CMakeFiles/cmTC_4a17c.dir/OpenMPCheckVersion.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_4a17c.dir/OpenMPCheckVersion.c.o -MF CMakeFiles/cmTC_4a17c.dir/OpenMPCheckVersion.c.o.d -o CMakeFiles/cmTC_4a17c.dir/OpenMPCheckVersion.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-bd5391/OpenMPCheckVersion.c
+        \x1b[1m/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-bd5391/OpenMPCheckVersion.c:3:10: \x1b[0m\x1b[0;1;31mfatal error: \x1b[0m\x1b[1m'omp.h' file not found\x1b[0m
+        #include <omp.h>
+        \x1b[0;1;32m         ^~~~~~~
+        \x1b[0m1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_4a17c.dir/OpenMPCheckVersion.c.o] Error 1
+        make: *** [cmTC_4a17c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:441 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-6pVto9"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-6pVto9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-6pVto9
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79733/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79733.dir/build.make CMakeFiles/cmTC_79733.dir/build
+        Building CXX object CMakeFiles/cmTC_79733.dir/OpenMPCheckVersion.cpp.o
+        /Library/Developer/CommandLineTools/usr/bin/c++   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_79733.dir/OpenMPCheckVersion.cpp.o -MF CMakeFiles/cmTC_79733.dir/OpenMPCheckVersion.cpp.o.d -o CMakeFiles/cmTC_79733.dir/OpenMPCheckVersion.cpp.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-6pVto9/OpenMPCheckVersion.cpp
+        \x1b[1m/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-6pVto9/OpenMPCheckVersion.cpp:3:10: \x1b[0m\x1b[0;1;31mfatal error: \x1b[0m\x1b[1m'omp.h' file not found\x1b[0m
+        #include <omp.h>
+        \x1b[0;1;32m         ^~~~~~~
+        \x1b[0m1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_79733.dir/OpenMPCheckVersion.cpp.o] Error 1
+        make: *** [cmTC_79733/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:161 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WEXTRA"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-Ly83cZ"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-Ly83cZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-Ly83cZ
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b008/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b008.dir/build.make CMakeFiles/cmTC_5b008.dir/build
+        Building CXX object CMakeFiles/cmTC_5b008.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wextra -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wextra -MD -MT CMakeFiles/cmTC_5b008.dir/src.cxx.o -MF CMakeFiles/cmTC_5b008.dir/src.cxx.o.d -o CMakeFiles/cmTC_5b008.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-Ly83cZ/src.cxx
+        Linking CXX executable cmTC_5b008
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b008.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wextra -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b008.dir/src.cxx.o -o cmTC_5b008 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_5b008] Error 1
+        make: *** [cmTC_5b008/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:168 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yCFaqs"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yCFaqs"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSUGGEST_OVERRIDE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yCFaqs
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_e5709/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e5709.dir/build.make CMakeFiles/cmTC_e5709.dir/build
+        Building CXX object CMakeFiles/cmTC_e5709.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wsuggest-override -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wsuggest-override -MD -MT CMakeFiles/cmTC_e5709.dir/src.cxx.o -MF CMakeFiles/cmTC_e5709.dir/src.cxx.o.d -o CMakeFiles/cmTC_e5709.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yCFaqs/src.cxx
+        Linking CXX executable cmTC_e5709
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5709.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wsuggest-override -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e5709.dir/src.cxx.o -o cmTC_e5709 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_e5709] Error 1
+        make: *** [cmTC_e5709/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:170 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-8KzxC3"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-8KzxC3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-8KzxC3
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3cb74/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3cb74.dir/build.make CMakeFiles/cmTC_3cb74.dir/build
+        Building CXX object CMakeFiles/cmTC_3cb74.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -pedantic -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -pedantic -MD -MT CMakeFiles/cmTC_3cb74.dir/src.cxx.o -MF CMakeFiles/cmTC_3cb74.dir/src.cxx.o.d -o CMakeFiles/cmTC_3cb74.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-8KzxC3/src.cxx
+        Linking CXX executable cmTC_3cb74
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cb74.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -pedantic -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3cb74.dir/src.cxx.o -o cmTC_3cb74 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_3cb74] Error 1
+        make: *** [cmTC_3cb74/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:171 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-JHNMy2"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-JHNMy2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_PEDANTIC_ERRORS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-JHNMy2
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f8327/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f8327.dir/build.make CMakeFiles/cmTC_f8327.dir/build
+        Building CXX object CMakeFiles/cmTC_f8327.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -pedantic-errors -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -pedantic-errors -MD -MT CMakeFiles/cmTC_f8327.dir/src.cxx.o -MF CMakeFiles/cmTC_f8327.dir/src.cxx.o.d -o CMakeFiles/cmTC_f8327.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-JHNMy2/src.cxx
+        Linking CXX executable cmTC_f8327
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8327.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -pedantic-errors -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f8327.dir/src.cxx.o -o cmTC_f8327 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_f8327] Error 1
+        make: *** [cmTC_f8327/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:172 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-RJmJVq"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-RJmJVq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WSHORTEN_64_TO_32"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-RJmJVq
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b7366/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_b7366.dir/build.make CMakeFiles/cmTC_b7366.dir/build
+        Building CXX object CMakeFiles/cmTC_b7366.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WSHORTEN_64_TO_32  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wshorten-64-to-32 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wshorten-64-to-32 -MD -MT CMakeFiles/cmTC_b7366.dir/src.cxx.o -MF CMakeFiles/cmTC_b7366.dir/src.cxx.o.d -o CMakeFiles/cmTC_b7366.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-RJmJVq/src.cxx
+        Linking CXX executable cmTC_b7366
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7366.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wshorten-64-to-32 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_b7366.dir/src.cxx.o -o cmTC_b7366 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_b7366] Error 1
+        make: *** [cmTC_b7366/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:173 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-q9OtRe"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-q9OtRe"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_FSTRICT_ALIASING"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-q9OtRe
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5b830/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5b830.dir/build.make CMakeFiles/cmTC_5b830.dir/build
+        Building CXX object CMakeFiles/cmTC_5b830.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -fstrict-aliasing -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -fstrict-aliasing -MD -MT CMakeFiles/cmTC_5b830.dir/src.cxx.o -MF CMakeFiles/cmTC_5b830.dir/src.cxx.o.d -o CMakeFiles/cmTC_5b830.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-q9OtRe/src.cxx
+        Linking CXX executable cmTC_5b830
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b830.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -fstrict-aliasing -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5b830.dir/src.cxx.o -o cmTC_5b830 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_5b830] Error 1
+        make: *** [cmTC_5b830/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:176 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-ggxt2h"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-ggxt2h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-ggxt2h
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d55f8/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d55f8.dir/build.make CMakeFiles/cmTC_d55f8.dir/build
+        Building CXX object CMakeFiles/cmTC_d55f8.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wno-deprecated-declarations -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wno-deprecated-declarations -MD -MT CMakeFiles/cmTC_d55f8.dir/src.cxx.o -MF CMakeFiles/cmTC_d55f8.dir/src.cxx.o.d -o CMakeFiles/cmTC_d55f8.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-ggxt2h/src.cxx
+        Linking CXX executable cmTC_d55f8
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d55f8.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wno-deprecated-declarations -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d55f8.dir/src.cxx.o -o cmTC_d55f8 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_d55f8] Error 1
+        make: *** [cmTC_d55f8/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:184 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-VB2kAO"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-VB2kAO"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WNO_DEPRECATED"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-VB2kAO
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f3ede/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f3ede.dir/build.make CMakeFiles/cmTC_f3ede.dir/build
+        Building CXX object CMakeFiles/cmTC_f3ede.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wno-deprecated -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wno-deprecated -MD -MT CMakeFiles/cmTC_f3ede.dir/src.cxx.o -MF CMakeFiles/cmTC_f3ede.dir/src.cxx.o.d -o CMakeFiles/cmTC_f3ede.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-VB2kAO/src.cxx
+        Linking CXX executable cmTC_f3ede
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3ede.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wno-deprecated -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f3ede.dir/src.cxx.o -o cmTC_f3ede 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_f3ede] Error 1
+        make: *** [cmTC_f3ede/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:198 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WD654"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-gwMQY0"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-gwMQY0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WD654"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-gwMQY0
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1eb95/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_1eb95.dir/build.make CMakeFiles/cmTC_1eb95.dir/build
+        Building CXX object CMakeFiles/cmTC_1eb95.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WD654  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -wd654 -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -wd654 -MD -MT CMakeFiles/cmTC_1eb95.dir/src.cxx.o -MF CMakeFiles/cmTC_1eb95.dir/src.cxx.o.d -o CMakeFiles/cmTC_1eb95.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-gwMQY0/src.cxx
+        clang: \x1b[0;1;31merror: \x1b[0m\x1b[1munknown argument: '-wd654'\x1b[0m
+        clang: \x1b[0;1;31merror: \x1b[0m\x1b[1munknown argument: '-wd654'\x1b[0m
+        make[1]: *** [CMakeFiles/cmTC_1eb95.dir/src.cxx.o] Error 1
+        make: *** [cmTC_1eb95/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:199 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-2ddoZL"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-2ddoZL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_WTHREAD_SAFETY"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-2ddoZL
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_00169/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_00169.dir/build.make CMakeFiles/cmTC_00169.dir/build
+        Building CXX object CMakeFiles/cmTC_00169.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_WTHREAD_SAFETY  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wthread-safety -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   -Wthread-safety -MD -MT CMakeFiles/cmTC_00169.dir/src.cxx.o -MF CMakeFiles/cmTC_00169.dir/src.cxx.o.d -o CMakeFiles/cmTC_00169.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-2ddoZL/src.cxx
+        Linking CXX executable cmTC_00169
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00169.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  -Wthread-safety -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_00169.dir/src.cxx.o -o cmTC_00169 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_00169] Error 1
+        make: *** [cmTC_00169/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third-party/google-benchmark/cmake/AddCXXCompilerFlag.cmake:34 (check_cxx_compiler_flag)"
+      - "third-party/google-benchmark/CMakeLists.txt:250 (add_cxx_compiler_flag)"
+    checks:
+      - "Performing Test HAVE_CXX_FLAG_COVERAGE"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yO32Mg"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yO32Mg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "HAVE_CXX_FLAG_COVERAGE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yO32Mg
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_556d6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_556d6.dir/build.make CMakeFiles/cmTC_556d6.dir/build
+        Building CXX object CMakeFiles/cmTC_556d6.dir/src.cxx.o
+        /Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  --coverage -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics   --coverage -MD -MT CMakeFiles/cmTC_556d6.dir/src.cxx.o -MF CMakeFiles/cmTC_556d6.dir/src.cxx.o.d -o CMakeFiles/cmTC_556d6.dir/src.cxx.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-yO32Mg/src.cxx
+        Linking CXX executable cmTC_556d6
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_556d6.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/c++  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1  -Wno-unused-private-field -Wno-shift-op-parentheses -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -std=c++11  -Wall  -Wshadow  --coverage -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_556d6.dir/src.cxx.o -o cmTC_556d6 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_556d6] Error 1
+        make: *** [cmTC_556d6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "third-party/google-benchmark/CMakeLists.txt:293 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tu5o6K"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tu5o6K"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tu5o6K
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c2c9c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c2c9c.dir/build.make CMakeFiles/cmTC_c2c9c.dir/build
+        Building C object CMakeFiles/cmTC_c2c9c.dir/src.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_c2c9c.dir/src.c.o -MF CMakeFiles/cmTC_c2c9c.dir/src.c.o.d -o CMakeFiles/cmTC_c2c9c.dir/src.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tu5o6K/src.c
+        Linking C executable cmTC_c2c9c
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c9c.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c2c9c.dir/src.c.o -o cmTC_c2c9c 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_c2c9c] Error 1
+        make: *** [cmTC_c2c9c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:136 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:169 (_threads_check_flag_pthread)"
+      - "third-party/google-benchmark/CMakeLists.txt:293 (find_package)"
+    checks:
+      - "Check if compiler accepts -pthread"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-KITAaz"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-KITAaz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "THREADS_HAVE_PTHREAD_ARG"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-KITAaz
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_61554/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_61554.dir/build.make CMakeFiles/cmTC_61554.dir/build
+        Building C object CMakeFiles/cmTC_61554.dir/CheckForPthreads.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_61554.dir/CheckForPthreads.c.o -MF CMakeFiles/cmTC_61554.dir/CheckForPthreads.c.o.d -o CMakeFiles/cmTC_61554.dir/CheckForPthreads.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-KITAaz/CheckForPthreads.c
+        Linking C executable cmTC_61554
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61554.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument  -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_61554.dir/CheckForPthreads.c.o -o cmTC_61554  -pthread 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_61554] Error 1
+        make: *** [cmTC_61554/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "third-party/google-benchmark/CMakeLists.txt:293 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-HSGyMK"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-HSGyMK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-HSGyMK
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df0e4/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_df0e4.dir/build.make CMakeFiles/cmTC_df0e4.dir/build
+        Building C object CMakeFiles/cmTC_df0e4.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -DCHECK_FUNCTION_EXISTS=pthread_create -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_df0e4.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_df0e4.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_df0e4.dir/CheckFunctionExists.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-HSGyMK/CheckFunctionExists.c
+        Linking C executable cmTC_df0e4
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df0e4.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -DCHECK_FUNCTION_EXISTS=pthread_create -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_df0e4.dir/CheckFunctionExists.c.o -o cmTC_df0e4  -lpthreads 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_df0e4] Error 1
+        make: *** [cmTC_df0e4/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "third-party/google-benchmark/CMakeLists.txt:293 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tJ4Lvc"
+      binary: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tJ4Lvc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument"
+      CMAKE_EXE_LINKER_FLAGS: " "
+      CMAKE_MODULE_PATH: "/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake/Modules;/Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/third-party/google-benchmark/cmake"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: "/Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tJ4Lvc
+        
+        Run Build Command(s):/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79da2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_79da2.dir/build.make CMakeFiles/cmTC_79da2.dir/build
+        Building C object CMakeFiles/cmTC_79da2.dir/CheckFunctionExists.c.o
+        /Library/Developer/CommandLineTools/usr/bin/cc   -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -DCHECK_FUNCTION_EXISTS=pthread_create -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fcolor-diagnostics -MD -MT CMakeFiles/cmTC_79da2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_79da2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_79da2.dir/CheckFunctionExists.c.o -c /Users/antoniajanuszewicz/Downloads/NDPSA/openfhe-development-main/cmake-build-local/CMakeFiles/CMakeScratch/TryCompile-tJ4Lvc/CheckFunctionExists.c
+        Linking C executable cmTC_79da2
+        /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79da2.dir/link.txt --verbose=1
+        /Library/Developer/CommandLineTools/usr/bin/cc  -Wall -Werror -O3  -DOPENFHE_VERSION=1.1.1 -DMATHBACKEND=4 -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -Xpreprocessor -fopenmp -lomp -Wno-unused-command-line-argument -DCHECK_FUNCTION_EXISTS=pthread_create -arch x86_64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_79da2.dir/CheckFunctionExists.c.o -o cmTC_79da2  -lpthread 
+        ld: warning: ignoring duplicate libraries: '-lomp'
+        ld: library 'omp' not found
+        clang: error: linker command failed with exit code 1 (use -v to see invocation)
+        make[1]: *** [cmTC_79da2] Error 1
+        make: *** [cmTC_79da2/fast] Error 2
+        
+      exitCode: 2
+...
